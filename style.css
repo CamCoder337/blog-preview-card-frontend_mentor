@@ -38,6 +38,15 @@ body{
     gap: 12px;
 }
 
+.card:hover{
+    transition: all 600ms ease-in;
+    /*transition-delay: 100ms;*/
+    /*filter: drop-shadow(16px 16px #000);*/
+    span:nth-child(3){
+        color:hsl(47, 88%, 63%);
+    }
+}
+
 .card-content span:first-child{
     font-weight: 800;
     font-size: 12px;
@@ -87,4 +96,3 @@ body{
     font-weight: 800;
     text-align: left;
 }
-
